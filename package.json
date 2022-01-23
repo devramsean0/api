@@ -1,0 +1,18 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sapphire/prettier-config": "^1.2.9",
+    "@sapphire/ts-config": "^3.1.8",
+    "typescript": "^4.5.5"
+  },
+  "prettier": "@sapphire/prettier-config"
+}
