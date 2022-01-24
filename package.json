@@ -1,22 +1,22 @@
 {
-  "name": "xnam-api",
-  "version": "0.0.1",
-  "description": "Api package primarily used for XnamBot",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "tsc && npm publish"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@sapphire/prettier-config": "^1.2.9",
-    "@sapphire/ts-config": "^3.1.8",
-    "discord.js": "^13.6.0",
-    "node-fetch": "^2.6.7",
-    "typescript": "^4.5.5"
-  },
-  "prettier": "@sapphire/prettier-config"
+	"name": "xnam-api",
+	"version": "0.0.1",
+	"description": "Api package primarily used for XnamBot",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"publish": "tsc && npm publish"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@sapphire/prettier-config": "^1.2.9",
+		"@sapphire/ts-config": "^3.1.8",
+		"discord.js": "^13.6.0",
+		"node-fetch": "^2.6.7",
+		"typescript": "^4.5.5"
+	},
+	"prettier": "@sapphire/prettier-config"
 }

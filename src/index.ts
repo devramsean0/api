@@ -42,6 +42,6 @@ export function EmbedTemplate(settings: any, command: string, description: strin
 		.setColor('#ff6600')
 		.setTitle(`${settings.botname} | ${command}`)
 		.setDescription(`${description}`)
-		.setFooter({ text: `${footer}`});
+		.setFooter({ text: `${footer}` });
 	return embed;
 }
