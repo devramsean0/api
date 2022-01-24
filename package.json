@@ -1,6 +1,6 @@
 {
 	"name": "xnam-api",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"description": "Api package primarily used for XnamBot",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",

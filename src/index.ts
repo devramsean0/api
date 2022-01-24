@@ -1,6 +1,5 @@
 // Packages
 import fetch from 'node-fetch';
-import { MessageEmbed } from 'discord.js';
 // Animal
 export async function AnimalApi(image: boolean, animal: string) {
 	const Animal = animal.toLowerCase();
@@ -35,13 +34,4 @@ export async function AnimalApi(image: boolean, animal: string) {
 	} else {
 		return `MAJOR ERROR`;
 	}
-}
-// Embeds
-export function EmbedTemplate(settings: any, command: string, description: string, footer: string) {
-	const embed = new MessageEmbed()
-		.setColor('#ff6600')
-		.setTitle(`${settings.botname} | ${command}`)
-		.setDescription(`${description}`)
-		.setFooter({ text: `${footer}` });
-	return embed;
 }
